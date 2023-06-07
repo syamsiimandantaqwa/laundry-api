@@ -148,12 +148,3 @@ module.exports = {
 	orderConfirm
 }
 
-
-// {
-// 	"id_layanan": 2,
-// 	"total": 3,
-// 	"no_hp": "08637338",
-// 	"alamat": "jalan doang jadian kagak",
-// 	"tgl_pengambilan": "2023-06-12",
-// 	"tgl_pengembalian": "2023-06-13"
-// }

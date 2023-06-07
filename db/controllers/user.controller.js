@@ -182,21 +182,3 @@ module.exports = {
 	addEmployee,
 	getAllEmployees
 }
-
-
-// {
-// 	"nama": "udin",
-// 	"email": "udin@gmail.com",
-// 	"password": "hello"
-// }
-
-// {
-// 	"nama": "jhonDoel",
-// 	"email": "jhonDoel@gmail.com"
-// }
-
-// {
-// 	"nama_layanan": "kiloan",
-// 	"harga": "250000",
-// 	"keterangan": "untuk harga di sesuaikan per kilo"
-// }
