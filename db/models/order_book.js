@@ -51,7 +51,7 @@ module.exports = (sequelize, DataTypes) => {
     modelName: 'order_book',
   });
 
-  order_book.afterCreate(async (order, options) => {
+  order_book.beforeCreate(async (order, options) => {
     try {
       await sequelize.models.log_activity.create({
       id_user: order.id_user,

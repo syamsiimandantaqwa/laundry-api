@@ -27,7 +27,7 @@ const register = async (req, res) => {
 		return;
 
 	} catch (err) {
-		res.status(500).json({
+		res.status(400).json({
 			success: false,
 			message: "maaf, ada kesalahan"
 		})
@@ -110,7 +110,7 @@ const getAllCustomers = async (req, res) => {
 
 		return;
 	}catch (err) {
-		res.status(500).json({
+		res.status(400).json({
 			success: false,
 			message: "gagal dalam mengambil data pelanggan"
 		});
@@ -165,7 +165,7 @@ const getAllEmployees = async (req, res) => {
 
 		return;
 	}catch (err) {
-		res.status(500).json({
+		res.status(400).json({
 			success: false,
 			message: "gagal dalam mengambil data pegawai"
 		});
@@ -188,6 +188,11 @@ module.exports = {
 // 	"nama": "udin",
 // 	"email": "udin@gmail.com",
 // 	"password": "hello"
+// }
+
+// {
+// 	"nama": "jhonDoel",
+// 	"email": "jhonDoel@gmail.com"
 // }
 
 // {
