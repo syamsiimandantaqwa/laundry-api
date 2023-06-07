@@ -27,6 +27,7 @@ sebuah api yang di tujukan untuk seorang developer yang ingin mengembangkan apli
 | `/services/:serviceId` | DELETE | admin | menghapus data layanan |
 | `/order` | POST | pelanggan | membuat pesanan baru |
 | `/order/list` | GET | admin,pegawai | mendapatkan seluruh daftar pesanan |
+| `/order/list?status=selesai` | GET | admin,pegawai | mendapatkan seluruh daftar pesanan yang statusnya selesai|
 | `/order/:userId` | GET | - | mendapatkan data pesanan dari seorang pengguna |
 | `order/:orderId` | GET | pelanggan | jika pesanan pelanggan telah di kerjakan, maka pelanggan bisa melakukan konfirmasi lewat endpoint ini |
 | `/recent-activity ` | GET | pelanggan | melihat seluruh log aktivitas |      
