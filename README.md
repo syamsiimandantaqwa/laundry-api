@@ -19,8 +19,8 @@ sebuah api yang di tujukan untuk seorang developer yang ingin mengembangkan apli
 | `/sign-in` | POST | - | masuk |
 | `/logout` | GET | - | keluar |
 | `/customers` | GET | admin,pegawai | mendapatkan seluruh data pelanggan |
-| `/emplooyes` | GET | admin | daftar seluruh pegawai |
-| `/emplooyes` | POST | admin | menambah pegawai |
+| `/employees` | GET | admin | daftar seluruh pegawai |
+| `/employees` | POST | admin | menambah pegawai |
 | `/services`  | GET | - |  list seluruh layanan yang ada |
 | `/services` | POST | admin | menambah layanan baru |
 | `/services/:serviceId` | PUT | admin | mengubah layanan yang sudah ada |
